@@ -88,8 +88,8 @@ local Starlight = {
 	OnDestroy = nil,
 
 	FileSystem = {
-		Folder = "Starlight Interface Suite",
-		FileExtension = ".starlight",
+		Folder = "Cobalt",
+		FileExtension = ".cobalt",
 
 		AutoloadConfigPath = nil,
 		AutoloadThemePath = nil,
@@ -918,7 +918,7 @@ local function deepCopy(tbl)
 	return copy
 end
 Starlight.Themes = Themes
-Starlight.CurrentTheme = deepCopy(Themes.Starlight)
+Starlight.CurrentTheme = deepCopy(Themes["Neo (Dark)"])
 
 --//ENDSUBSECTION
 
